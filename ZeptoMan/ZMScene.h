@@ -1,5 +1,5 @@
 //
-//  ZMViewController.h
+//  ZMScene.h
 //  ZeptoMan
 //
 //  Created by Roman Smirnov on 16.06.12.
@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <GLKit/GLKit.h>
-#import "ZMScene.h"
 
+@interface ZMScene : NSObject
 
-@interface ZMViewController : GLKViewController
-{
-    ZMScene *scene;
-}
+- (void)setupGL;
+- (void)tearDownGL;
+
+- (void)update;
+- (void)render;
+
 @end

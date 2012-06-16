@@ -20,6 +20,7 @@
 		B187FD28158C781B00ACF6A9 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B187FD27158C781B00ACF6A9 /* Shader.fsh */; };
 		B187FD2A158C781B00ACF6A9 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B187FD29158C781B00ACF6A9 /* Shader.vsh */; };
 		B187FD2D158C781B00ACF6A9 /* ZMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B187FD2C158C781B00ACF6A9 /* ZMViewController.m */; };
+		B187FD35158C78F400ACF6A9 /* ZMScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B187FD34158C78F400ACF6A9 /* ZMScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,18 +30,20 @@
 		B187FD0F158C781B00ACF6A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B187FD11158C781B00ACF6A9 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		B187FD13158C781B00ACF6A9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		B187FD17158C781B00ACF6A9 /* ZeptoMan-Info.plist */ = {isa = PBXFileReference; path = "ZeptoMan-Info.plist"; sourceTree = "<group>"; };
+		B187FD17158C781B00ACF6A9 /* ZeptoMan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZeptoMan-Info.plist"; sourceTree = "<group>"; };
 		B187FD19158C781B00ACF6A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B187FD1B158C781B00ACF6A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B187FD1D158C781B00ACF6A9 /* ZeptoMan-Prefix.pch */ = {isa = PBXFileReference; path = "ZeptoMan-Prefix.pch"; sourceTree = "<group>"; };
-		B187FD1E158C781B00ACF6A9 /* ZMAppDelegate.h */ = {isa = PBXFileReference; path = ZMAppDelegate.h; sourceTree = "<group>"; };
+		B187FD1D158C781B00ACF6A9 /* ZeptoMan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZeptoMan-Prefix.pch"; sourceTree = "<group>"; };
+		B187FD1E158C781B00ACF6A9 /* ZMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMAppDelegate.h; sourceTree = "<group>"; };
 		B187FD1F158C781B00ACF6A9 /* ZMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMAppDelegate.m; sourceTree = "<group>"; };
 		B187FD22158C781B00ACF6A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		B187FD25158C781B00ACF6A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		B187FD27158C781B00ACF6A9 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		B187FD29158C781B00ACF6A9 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		B187FD2B158C781B00ACF6A9 /* ZMViewController.h */ = {isa = PBXFileReference; path = ZMViewController.h; sourceTree = "<group>"; };
+		B187FD2B158C781B00ACF6A9 /* ZMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMViewController.h; sourceTree = "<group>"; };
 		B187FD2C158C781B00ACF6A9 /* ZMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMViewController.m; sourceTree = "<group>"; };
+		B187FD33158C78F400ACF6A9 /* ZMScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMScene.h; sourceTree = "<group>"; };
+		B187FD34158C78F400ACF6A9 /* ZMScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				B187FD29158C781B00ACF6A9 /* Shader.vsh */,
 				B187FD2B158C781B00ACF6A9 /* ZMViewController.h */,
 				B187FD2C158C781B00ACF6A9 /* ZMViewController.m */,
+				B187FD33158C78F400ACF6A9 /* ZMScene.h */,
+				B187FD34158C78F400ACF6A9 /* ZMScene.m */,
 				B187FD16158C781B00ACF6A9 /* Supporting Files */,
 			);
 			path = ZeptoMan;
@@ -184,6 +189,7 @@
 				B187FD1C158C781B00ACF6A9 /* main.m in Sources */,
 				B187FD20158C781B00ACF6A9 /* ZMAppDelegate.m in Sources */,
 				B187FD2D158C781B00ACF6A9 /* ZMViewController.m in Sources */,
+				B187FD35158C78F400ACF6A9 /* ZMScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
