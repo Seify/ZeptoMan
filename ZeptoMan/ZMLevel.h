@@ -10,6 +10,8 @@
 #import "ZMSprite.h"
 
 @interface ZMLevel : NSObject
-@property (strong) NSArray *walls;
-@property (strong) NSMutableArray *food;
+@property (readonly) NSMutableArray *walls;
+@property (readonly) NSMutableArray *coins;
+- (void)loadWallsWithTexture:(GLKTextureInfo *)texInfo;
+- (void)loadCoinsWithTexture:(GLKTextureInfo *)texInfo;
 @end

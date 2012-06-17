@@ -10,7 +10,7 @@
 #import "GLKit/GLKit.h"
 
 @interface ZMSpriteAnimation : NSObject
-- (id)initWithTimePerFrame:(float)timePerFrame framesNamed:(NSArray *)frameNames;
+- (id)initWithTimePerFrame:(float)timePerFrame frames:(NSArray *)frames;
 - (GLKTextureInfo *)currentFrame;
 - (void)update:(NSTimeInterval)dt;
 @end

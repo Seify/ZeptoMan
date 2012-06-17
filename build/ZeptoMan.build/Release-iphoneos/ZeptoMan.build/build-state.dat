@@ -1,0 +1,626 @@
+TZeptoMan
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Release-iphoneos/ZeptoMan.app/ResourceRules.plist
+cProcessInfoPlistFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/Info.plist" ZeptoMan/ZeptoMan-Info.plist
+cProcessPCH /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch.pth ZeptoMan/ZeptoMan-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/main.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMAppDelegate.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMViewController.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMScene.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMScene.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSprite.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSprite.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSpriteAnimation.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSpriteAnimation.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMLevel.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMLevel.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMEnemy.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMEnemy.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZeptoMan" normal armv7
+cGenerateDSYMFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app.dSYM" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZeptoMan"
+cCompileStoryboard "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/MainStoryboard_iPhone.storyboard"
+cCopyStringsFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/en.lproj/InfoPlist.strings" ZeptoMan/en.lproj/InfoPlist.strings
+cCompileStoryboard "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/MainStoryboard_iPad.storyboard"
+cCpResource ZeptoMan/Shaders/Shader.fsh build/Release-iphoneos/ZeptoMan.app/Shader.fsh
+cCpResource ZeptoMan/Shaders/Shader.vsh build/Release-iphoneos/ZeptoMan.app/Shader.vsh
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZMan1.png" ZeptoMan/Textures/ZMan1.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZMan2.png" ZeptoMan/Textures/ZMan2.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/wall.png" ZeptoMan/Textures/wall.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/coin.png" ZeptoMan/Textures/coin.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/fire.png" ZeptoMan/Textures/fire.png
+cProcessProductPackaging "/Users/Seify/Library/MobileDevice/Provisioning Profiles/D64515FF-C7D2-4DCC-A757-C2CED5A3FC3B.mobileprovision" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/embedded.mobileprovision"
+cProcessProductPackaging "/Users/Seify/Library/MobileDevice/Provisioning Profiles/D64515FF-C7D2-4DCC-A757-C2CED5A3FC3B.mobileprovision" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/embedded.mobileprovision"
+cTouch "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app"
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan.xcent"
+cCodeSign "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app"
+cValidate "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F981DC20000000000000110
+t1335369154
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000004F5DD6C400000000000001A7
+t1331549892
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000004F5DD6C400000000000001E5
+t1331549892
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F5DD6C600000000003AE430
+t1331549894
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F5DD6C6000000000052C940
+t1331549894
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/GLKit.framework/GLKit
+c000000004F5DD6C6000000000004AE10
+t1331549894
+s306704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004F5DD6C70000000000018700
+t1331549895
+s100096
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F5DD6C80000000000798EA0
+t1331549896
+s7966368
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Shaders/Shader.fsh
+c000000004FDC409B00000000000000E1
+t1339834523
+s225
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Shaders/Shader.vsh
+c000000004FDC409B0000000000000291
+t1339834523
+s657
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/ZMan1.png
+c000000004FDC62D80000000000001B3F
+t1339843288
+s6975
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/ZMan2.png
+c000000004FDC646F0000000000001ED3
+t1339843695
+s7891
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/coin.png
+c000000004FDDADE80000000000004BC6
+t1339928040
+s19398
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/fire.png
+c000000004FDDD41800000000000073A8
+t1339937816
+s29608
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/wall.png
+c000000004FDCE2270000000000001DD9
+t1339875879
+s7641
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMAppDelegate.m
+c000000004FDC409B0000000000000806
+t1339834523
+s2054
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMEnemy.m
+c000000004FDDF69A00000000000001A4
+t1339946650
+s420
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMLevel.m
+c000000004FDE01070000000000001563
+t1339949319
+s5475
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMScene.m
+c000000004FDDFD590000000000001D47
+t1339948377
+s7495
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSprite.m
+c000000004FDDD51F00000000000018EC
+t1339938079
+s6380
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSpriteAnimation.m
+c000000004FDC87AA00000000000006EA
+t1339852714
+s1770
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMViewController.m
+c000000004FDCD4E10000000000000D77
+t1339872481
+s3447
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZeptoMan-Prefix.pch
+c000000004FDC409B000000000000013F
+t1339834523
+s319
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/InfoPlist.strings
+c000000004FDC409B000000000000002D
+t1339834523
+s45
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/MainStoryboard_iPad.storyboard
+c000000004FDC409B0000000000000766
+t1339834523
+s1894
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/MainStoryboard_iPhone.storyboard
+c000000004FDC409B000000000000075F
+t1339834523
+s1887
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/main.m
+c000000004FDC409B000000000000015E
+t1339834523
+s350
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app.dSYM
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/Info.plist
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/PkgInfo
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ResourceRules.plist
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/Shader.fsh
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/Shader.vsh
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZMan1.png
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZMan2.png
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZeptoMan
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/coin.png
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/fire.png
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/wall.png
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMAppDelegate.o
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMEnemy.o
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMLevel.o
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMScene.o
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSprite.o
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSpriteAnimation.o
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMViewController.o
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZeptoMan.LinkFileList
+c000000004FDE0107000000000000044F
+t1339949319
+s1103
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan.xcent
+t2
+s0
+
+N/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Seify/Library/MobileDevice/Provisioning Profiles/D64515FF-C7D2-4DCC-A757-C2CED5A3FC3B.mobileprovision
+c000000004FD1C0D70000000000001C3F
+t1339146455
+s7231
+
+N/var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch.pth
+t2
+s0
+
+NZeptoMan/ZeptoMan-Info.plist
+c000000004FDC40AA0000000000000639
+t1339834538
+s1593
+
+CBuild AST from "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMAppDelegate.m"
+r0
+
+CBuild AST from "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMEnemy.m"
+r0
+
+CBuild AST from "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMLevel.m"
+r0
+
+CBuild AST from "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMScene.m"
+r0
+
+CBuild AST from "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSprite.m"
+r0
+
+CBuild AST from "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSpriteAnimation.m"
+r0
+
+CBuild AST from "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMViewController.m"
+r0
+
+CBuild AST from "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd2526587388eb541^68b09987388eb541^---0#1#0#--18"Check dependencies36"AFADC1A5-2477-4B18-A89B-9990DB1A8C81-
+
+CCodeSign "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app"
+s361642121.809610
+e361642121.945627
+r1
+xCodeSign
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"CodeSign build/Release-iphoneos/ZeptoMan.app2156cf89388eb541^5914f289388eb541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/0000000000000000^858"CodeSign build/Release-iphoneos/ZeptoMan.app    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 6c377b9007e2d58d3c3ac66ac753c1fa09e8e5b5 "--resource-rules=/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ResourceRules.plist" --entitlements "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan.xcent" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app"36"B0F2B334-677D-46C4-A28C-E8589BC04911-
+
+CCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMAppDelegate.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s361642120.104175
+e361642120.258010
+r1
+xCompileC
+xbuild/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMAppDelegate.o
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMAppDelegate.m6fd81a88388eb541^d3174288388eb541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMAppDelegate.m0000000000000000^3315"CompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMAppDelegate.o ZeptoMan/ZMAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-generated-files.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-own-target-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-all-target-headers.hmap" -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-project-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/include" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources/armv7" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources" "-F/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch -MMD -MT dependencies -MF "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMAppDelegate.d" --serialize-diagnostics "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMAppDelegate.dia" -c "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMAppDelegate.m" -o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMAppDelegate.o"36"2757B3BA-8440-4560-A1B9-3CB0166C7B59-
+
+CCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMEnemy.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMEnemy.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s361642120.540765
+e361642120.698903
+r1
+xCompileC
+xbuild/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMEnemy.o
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMEnemy.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMEnemy.mcaa48a88388eb541^2debb288388eb541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMEnemy.m0000000000000000^3279"CompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMEnemy.o ZeptoMan/ZMEnemy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-generated-files.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-own-target-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-all-target-headers.hmap" -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-project-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/include" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources/armv7" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources" "-F/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch -MMD -MT dependencies -MF "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMEnemy.d" --serialize-diagnostics "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMEnemy.dia" -c "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMEnemy.m" -o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMEnemy.o"36"09AA3F2E-CC79-4A2D-B5C5-CD52801F8276-
+
+CCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMLevel.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMLevel.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s361642120.476944
+e361642120.696453
+r1
+xCompileC
+xbuild/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMLevel.o
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMLevel.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMLevel.mbb477a88388eb541^494ab288388eb541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMLevel.m0000000000000000^3279"CompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMLevel.o ZeptoMan/ZMLevel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-generated-files.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-own-target-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-all-target-headers.hmap" -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-project-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/include" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources/armv7" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources" "-F/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch -MMD -MT dependencies -MF "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMLevel.d" --serialize-diagnostics "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMLevel.dia" -c "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMLevel.m" -o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMLevel.o"36"1EF4217D-ADA0-46D6-9C27-5E8D1CE2781C-
+
+CCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMScene.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMScene.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s361642120.104758
+e361642120.641650
+r1
+xCompileC
+xbuild/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMScene.o
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMScene.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMScene.m93fe1a88388eb541^0e4ea488388eb541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMScene.m0000000000000000^3279"CompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMScene.o ZeptoMan/ZMScene.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-generated-files.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-own-target-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-all-target-headers.hmap" -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-project-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/include" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources/armv7" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources" "-F/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch -MMD -MT dependencies -MF "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMScene.d" --serialize-diagnostics "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMScene.dia" -c "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMScene.m" -o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMScene.o"36"A1407439-BC33-4250-BB5D-A46E92D4FB46-
+
+CCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSprite.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSprite.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s361642120.205642
+e361642120.698912
+r1
+xCompileC
+xbuild/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSprite.o
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSprite.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSprite.m89d43488388eb541^9df4b288388eb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSprite.m0000000000000000^3285"CompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSprite.o ZeptoMan/ZMSprite.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-generated-files.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-own-target-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-all-target-headers.hmap" -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-project-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/include" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources/armv7" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources" "-F/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch -MMD -MT dependencies -MF "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSprite.d" --serialize-diagnostics "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSprite.dia" -c "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSprite.m" -o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSprite.o"36"AE4ED360-AA90-4F90-AB2E-D7779E50AA37-
+
+CCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSpriteAnimation.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSpriteAnimation.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s361642120.259250
+e361642120.539450
+r1
+xCompileC
+xbuild/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSpriteAnimation.o
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSpriteAnimation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSpriteAnimation.m81924288388eb541^63258a88388eb541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSpriteAnimation.m0000000000000000^3339"CompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSpriteAnimation.o ZeptoMan/ZMSpriteAnimation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-generated-files.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-own-target-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-all-target-headers.hmap" -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-project-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/include" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources/armv7" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources" "-F/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch -MMD -MT dependencies -MF "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSpriteAnimation.d" --serialize-diagnostics "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSpriteAnimation.dia" -c "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMSpriteAnimation.m" -o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMSpriteAnimation.o"36"E2F4F95C-D496-43E7-BFD8-4930A942EA2E-
+
+CCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMViewController.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s361642120.104206
+e361642120.475651
+r1
+xCompileC
+xbuild/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMViewController.o
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMViewController.m38d91a88388eb541^78cf7988388eb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMViewController.m0000000000000000^3333"CompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMViewController.o ZeptoMan/ZMViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-generated-files.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-own-target-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-all-target-headers.hmap" -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-project-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/include" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources/armv7" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources" "-F/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch -MMD -MT dependencies -MF "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMViewController.d" --serialize-diagnostics "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMViewController.dia" -c "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZMViewController.m" -o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZMViewController.o"36"068717FF-8963-4C65-8681-3608BBD3AAD0-
+
+CCompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/main.o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s361642120.103648
+e361642120.203320
+r1
+xCompileC
+xbuild/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/main.o
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/main.m8cbe1a88388eb541^18083688388eb541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/main.m0000000000000000^3261"CompileC build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/main.o ZeptoMan/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-generated-files.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-own-target-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-all-target-headers.hmap" -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-project-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/include" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources/armv7" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources" "-F/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch -MMD -MT dependencies -MF "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/main.d" --serialize-diagnostics "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/main.dia" -c "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/main.m" -o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/main.o"36"66DFB1CA-CDFE-43E3-AC07-15DD948571F0-
+
+CCompileStoryboard "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/MainStoryboard_iPad.storyboard"
+s361642120.777482
+e361642121.724110
+r1
+xCompileStoryboard
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/MainStoryboard_iPad.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"CompileStoryboard ZeptoMan/en.lproj/MainStoryboard_iPad.storyboard711dc788388eb541^e066b989388eb541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^933"CompileStoryboard ZeptoMan/en.lproj/MainStoryboard_iPad.storyboard    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/en.lproj/MainStoryboard_iPad.storyboardc" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/MainStoryboard_iPad.storyboard" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"377E6D40-CFA0-4893-85BA-DD8DFFECFD1D-
+
+CCompileStoryboard "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/MainStoryboard_iPhone.storyboard"
+s361642120.777477
+e361642121.702091
+r1
+xCompileStoryboard
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CompileStoryboard ZeptoMan/en.lproj/MainStoryboard_iPhone.storyboard8620c788388eb541^d8bbb389388eb541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^939"CompileStoryboard ZeptoMan/en.lproj/MainStoryboard_iPhone.storyboard    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/en.lproj/MainStoryboard_iPhone.storyboardc" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/MainStoryboard_iPhone.storyboard" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"20032CE8-F3FC-4DE9-BA7B-3CC95D3C2322-
+
+CCopyPNGFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZMan1.png" ZeptoMan/Textures/ZMan1.png
+s361642120.789918
+e361642120.938053
+r1
+xCopyPNGFile
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZMan1.png
+xZeptoMan/Textures/ZMan1.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"CopyPNGFile build/Release-iphoneos/ZeptoMan.app/ZMan1.png ZeptoMan/Textures/ZMan1.pngb249ca88388eb541^1631f088388eb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/ZMan1.png0000000000000000^709"CopyPNGFile build/Release-iphoneos/ZeptoMan.app/ZMan1.png ZeptoMan/Textures/ZMan1.png    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/ZMan1.png" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZMan1.png"36"02193CF8-FFF5-425F-8911-ACAC74CC1DF2-
+
+CCopyPNGFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZMan2.png" ZeptoMan/Textures/ZMan2.png
+s361642120.915419
+e361642120.995456
+r1
+xCopyPNGFile
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZMan2.png
+xZeptoMan/Textures/ZMan2.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"CopyPNGFile build/Release-iphoneos/ZeptoMan.app/ZMan2.png ZeptoMan/Textures/ZMan2.pngb070ea88388eb541^9dd5fe88388eb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/ZMan2.png0000000000000000^709"CopyPNGFile build/Release-iphoneos/ZeptoMan.app/ZMan2.png ZeptoMan/Textures/ZMan2.png    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/ZMan2.png" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZMan2.png"36"482C5A84-0E46-443F-9B8E-1BEF4DBED331-
+
+CCopyPNGFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/coin.png" ZeptoMan/Textures/coin.png
+s361642120.996741
+e361642121.310321
+r1
+xCopyPNGFile
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/coin.png
+xZeptoMan/Textures/coin.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"CopyPNGFile build/Release-iphoneos/ZeptoMan.app/coin.png ZeptoMan/Textures/coin.png5b41ff88388eb541^13804f89388eb541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/coin.png0000000000000000^705"CopyPNGFile build/Release-iphoneos/ZeptoMan.app/coin.png ZeptoMan/Textures/coin.png    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/coin.png" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/coin.png"36"B6297370-87D5-4001-A73E-892CB30B1511-
+
+CCopyPNGFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/fire.png" ZeptoMan/Textures/fire.png
+s361642121.040235
+e361642121.474316
+r1
+xCopyPNGFile
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/fire.png
+xZeptoMan/Textures/fire.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"CopyPNGFile build/Release-iphoneos/ZeptoMan.app/fire.png ZeptoMan/Textures/fire.png826f0a89388eb541^8dd07b89388eb541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/fire.png0000000000000000^705"CopyPNGFile build/Release-iphoneos/ZeptoMan.app/fire.png ZeptoMan/Textures/fire.png    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/fire.png" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/fire.png"36"9FBA1250-2001-4567-8C7E-4D1EF3EAE7E4-
+
+CCopyPNGFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/wall.png" ZeptoMan/Textures/wall.png
+s361642120.939317
+e361642121.038931
+r1
+xCopyPNGFile
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/wall.png
+xZeptoMan/Textures/wall.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"CopyPNGFile build/Release-iphoneos/ZeptoMan.app/wall.png ZeptoMan/Textures/wall.png3f90f088388eb541^edf20989388eb541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/wall.png0000000000000000^705"CopyPNGFile build/Release-iphoneos/ZeptoMan.app/wall.png ZeptoMan/Textures/wall.png    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Textures/wall.png" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/wall.png"36"5FCDD91B-CC92-4A8B-8F9B-A872C6C25EB0-
+
+CCopyStringsFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/en.lproj/InfoPlist.strings" ZeptoMan/en.lproj/InfoPlist.strings
+s361642120.777474
+e361642120.914033
+r1
+xCopyStringsFile
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/en.lproj/InfoPlist.strings
+xZeptoMan/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy ZeptoMan/en.lproj/InfoPlist.strings4b1ec788388eb541^f0fde988388eb541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/en.lproj/InfoPlist.strings0000000000000000^590"CopyStringsFile build/Release-iphoneos/ZeptoMan.app/en.lproj/InfoPlist.strings ZeptoMan/en.lproj/InfoPlist.strings    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/en.lproj" -- ZeptoMan/en.lproj/InfoPlist.strings36"6BCB3FD1-6EBA-47DA-8169-41D4656C4EC3-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Release-iphoneos/ZeptoMan.app/ResourceRules.plist
+s361642119.608858
+e361642119.613730
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/ZeptoMan.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Release-iphoneos/ZeptoMan.app/ResourceRules.plistcb139c87388eb541^374f9d87388eb541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ResourceRules.plist000000000080d041^886"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Release-iphoneos/ZeptoMan.app/ResourceRules.plist    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app"36"F222CB2E-1388-4125-AF8F-92DC27822E83-
+
+CCpResource ZeptoMan/Shaders/Shader.fsh build/Release-iphoneos/ZeptoMan.app/Shader.fsh
+s361642120.779339
+e361642120.784351
+r1
+xCpResource
+xZeptoMan/Shaders/Shader.fsh
+xbuild/Release-iphoneos/ZeptoMan.app/Shader.fsh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/Release-iphoneos/ZeptoMan.app/Shader.fsh569bc788388eb541^ddd0c888388eb541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/Shader.fsh000000000080d041^742"CpResource ZeptoMan/Shaders/Shader.fsh build/Release-iphoneos/ZeptoMan.app/Shader.fsh    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Shaders/Shader.fsh" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app"36"08A2DFAA-4720-42FA-8ED0-9BEB6B9980BA-
+
+CCpResource ZeptoMan/Shaders/Shader.vsh build/Release-iphoneos/ZeptoMan.app/Shader.vsh
+s361642120.785857
+e361642120.788630
+r1
+xCpResource
+xZeptoMan/Shaders/Shader.vsh
+xbuild/Release-iphoneos/ZeptoMan.app/Shader.vsh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/Release-iphoneos/ZeptoMan.app/Shader.vshea41c988388eb541^fce3c988388eb541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/Shader.vsh000000000080d041^742"CpResource ZeptoMan/Shaders/Shader.vsh build/Release-iphoneos/ZeptoMan.app/Shader.vsh    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/Shaders/Shader.vsh" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app"36"79A50977-A376-4A18-929B-3F14F35A0942-
+
+CGenerateDSYMFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app.dSYM" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZeptoMan"
+s361642120.742247
+e361642120.769419
+r1
+xGenerateDSYMFile
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app.dSYM
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZeptoMan
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Generating /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app.dSYM2029be88388eb541^a9fbc488388eb541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app.dSYM000000000080d041^610"GenerateDSYMFile build/Release-iphoneos/ZeptoMan.app.dSYM build/Release-iphoneos/ZeptoMan.app/ZeptoMan    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZeptoMan" -o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app.dSYM"36"A9748D55-8057-4CDD-B2A5-8DB9387B93DC-
+
+CLd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZeptoMan" normal armv7
+s361642120.705880
+e361642120.734246
+r1
+xLd
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZeptoMan
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZeptoMan47ccb488388eb541^2bfabb88388eb541^---0#0#0#--1138"Ld build/Release-iphoneos/ZeptoMan.app/ZeptoMan normal armv7    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk "-L/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos" "-F/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos" -filelist "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/Objects-normal/armv7/ZeptoMan.LinkFileList" -dead_strip -fobjc-arc -miphoneos-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -framework GLKit -framework OpenGLES -o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZeptoMan"36"85A9C665-5320-43A0-94BD-0751929DADFF-
+
+CProcessInfoPlistFile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/Info.plist" ZeptoMan/ZeptoMan-Info.plist
+s361642119.609011
+e361642119.613722
+r1
+xProcessInfoPlistFile
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/Info.plist
+xZeptoMan/ZeptoMan-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process ZeptoMan/ZeptoMan-Info.plist42089c87388eb541^bf479d87388eb541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZeptoMan-Info.plist0000000000000000^798"ProcessInfoPlistFile build/Release-iphoneos/ZeptoMan.app/Info.plist ZeptoMan/ZeptoMan-Info.plist    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ZeptoMan/ZeptoMan-Info.plist -genpkginfo "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ResourceRules.plist" -o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/Info.plist"36"2C2A14CD-7EC3-47C9-A706-89B4CEFF1BF0-
+
+CProcessPCH /Users/Seify/Library/Developer/Xcode/DerivedData/ZeptoMan-ecmwgljcpnvdvfaojjmrfjgdtqge/Index/PrecompiledHeaders/ZeptoMan-Prefix-gawhqjlqohhmioawrsgrxcyrxuon_ast/ZeptoMan-Prefix.pch.pth ZeptoMan/ZeptoMan-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch.pth ZeptoMan/ZeptoMan-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s361642119.622683
+e361642120.096675
+r1
+xProcessPCH
+x/var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch.pth
+xZeptoMan/ZeptoMan-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile ZeptoMan/ZeptoMan-Prefix.pch959c9f87388eb541^3cbf1888388eb541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZeptoMan-Prefix.pch0000000000000000^3293"ProcessPCH /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch.pth ZeptoMan/ZeptoMan-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-generated-files.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-own-target-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-all-target-headers.hmap" -iquote "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan-project-headers.hmap" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/include" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources/armv7" "-I/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/DerivedSources" "-F/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos" -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch.dia -c "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/ZeptoMan/ZeptoMan-Prefix.pch" -o /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-eicjmwftbyohzfhdeqiocmndpldf/ZeptoMan-Prefix.pch.d36"CF349D48-0BEE-498C-B4DE-8E6693B6A973-
+
+CProcessProductPackaging "/Users/Seify/Library/MobileDevice/Provisioning Profiles/D64515FF-C7D2-4DCC-A757-C2CED5A3FC3B.mobileprovision" "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/embedded.mobileprovision"
+s361642121.748873
+e361642121.754264
+r1
+xProcessProductPackaging
+x/Users/Seify/Library/MobileDevice/Provisioning Profiles/D64515FF-C7D2-4DCC-A757-C2CED5A3FC3B.mobileprovision
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection195"ProcessProductPackaging "/Users/Seify/Library/MobileDevice/Provisioning Profiles/D64515FF-C7D2-4DCC-A757-C2CED5A3FC3B.mobileprovision" build/Release-iphoneos/ZeptoMan.app/embedded.mobileprovisionbbd1bf89388eb541^69c3c189388eb541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/embedded.mobileprovision0000000000000000^708"ProcessProductPackaging "/Users/Seify/Library/MobileDevice/Provisioning Profiles/D64515FF-C7D2-4DCC-A757-C2CED5A3FC3B.mobileprovision" build/Release-iphoneos/ZeptoMan.app/embedded.mobileprovision    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/Seify/Library/MobileDevice/Provisioning Profiles/D64515FF-C7D2-4DCC-A757-C2CED5A3FC3B.mobileprovision" -o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/embedded.mobileprovision"36"3294BAC1-DA87-4A68-84DF-5C0D1D716A1F-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan.xcent"
+s361642121.798154
+e361642121.801580
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection212"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan.xcenta46dcc89388eb541^7a34cd89388eb541^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan.xcent000000000080d041^768"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan.xcent    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Release-iphoneos/ZeptoMan.build/ZeptoMan.xcent"36"4795BE15-B176-422F-8800-B6F23AC0E5BE-
+
+CTouch "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app"
+s361642121.764317
+e361642121.789471
+r1
+xTouch
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Touch /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app72bfc389388eb541^c51aca89388eb541^---0#0#0#--401"Touch build/Release-iphoneos/ZeptoMan.app    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app"36"57F6A815-688B-4EF3-9035-9AEE70D15CCB-
+
+CValidate "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app"
+s361642121.953436
+e361642123.053383
+r1
+xValidate
+x/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+owarning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)
+oUnable to validate your application. - (null)
+o
+owarning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)
+oExecutable=/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZeptoMan
+ocodesign_wrapper-0.7.10: using Apple CA for profile evaluation
+o/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app: valid on disk
+o/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app: satisfies its Designated Requirement
+otest-requirement: code failed to satisfy specified code requirement(s)
+ocodesign_wrapper-0.7.10: failed to execute codesign(1)
+o - (null)
+o
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Validate build/Release-iphoneos/ZeptoMan.appa228f489388eb541^f8aa0d8b388eb541^-1224"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)warning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)Unable to validate your application. - (null)warning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)Executable=/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/ZeptoMancodesign_wrapper-0.7.10: using Apple CA for profile evaluation/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app: valid on disk/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app: satisfies its Designated Requirementtest-requirement: code failed to satisfy specified code requirement(s)codesign_wrapper-0.7.10: failed to execute codesign(1) - (null)3(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57361642123#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---2@192" iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)182"IPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72361642123#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---2@175" Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)165"Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate.361642123#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@105"file://localhost/Users/Seify/Desktop/My%20Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app/0000000000000000^545"Validate build/Release-iphoneos/ZeptoMan.app    cd "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation "/Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Release-iphoneos/ZeptoMan.app"36"356FF1FA-6BDF-4279-A07E-1D99A7F3BFC9-
+

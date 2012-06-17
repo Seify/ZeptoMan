@@ -14,12 +14,10 @@
     NSMutableData *_textureCoordinateData;
     float _width;
     float _height;
-    GLKTextureInfo *_texture;    
 }
 @property (readonly) int numVertices;
 @property (readonly) GLKVector2 *vertices;
 @property (readonly) GLKVector2 *textureCoordinates;
-@property GLKVector2 previousPosition;
 
 - (void) updateVerticies;
 
@@ -33,6 +31,7 @@
 @synthesize spriteAnimation = _spriteAnimation;
 @synthesize previousPosition = _previousPosition;
 @synthesize nextTurn = _nextTurn;
+@synthesize texture = _texture;
 
 - (int)numVertices{
     return 4;
@@ -84,26 +83,20 @@
     self.vertices[3] = GLKVector2Make(-self.width/2.0, -self.height/2.0);
 }
 
-- (void)setTextureImage:(UIImage *)image
+- (void)setDefaultTextureCoordinates
 {
-    NSError *error;
-    _texture =[GLKTextureLoader textureWithCGImage:image.CGImage options:nil error:&error];
-    if (error)
-    {
-        NSLog(@"%@ : %@ Warning! Failed to set up texture. Error: %@", self, NSStringFromSelector(_cmd), error);
-    }
+    self.textureCoordinates[0] = GLKVector2Make(1, 1);
+    self.textureCoordinates[1] = GLKVector2Make(1, 0);
+    self.textureCoordinates[2] = GLKVector2Make(0, 0);
+    self.textureCoordinates[3] = GLKVector2Make(0, 1);
     
-    self.textureCoordinates[0] = GLKVector2Make(1, 0);
-    self.textureCoordinates[1] = GLKVector2Make(1, 1);
-    self.textureCoordinates[2] = GLKVector2Make(0, 1);
-    self.textureCoordinates[3] = GLKVector2Make(0, 0);
 }
 
 - (void)renderWithEffect:(GLKBaseEffect *)effect
 {
     
     
-    if (_texture) 
+    if (self.texture) 
     {
         glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
         glEnable(GL_BLEND);
@@ -114,7 +107,7 @@
             effect.texture2d0.name = [self.spriteAnimation currentFrame].name;
         }
         else {
-            effect.texture2d0.name = _texture.name;
+            effect.texture2d0.name = self.texture.name;
         }
 
         glEnableVertexAttribArray(GLKVertexAttribTexCoord0);
@@ -140,9 +133,6 @@
 
 - (void)update:(NSTimeInterval)dt
 {
-    
-
-    
     switch (self.nextTurn) {
         case TURN_DIRECTION_UP:{
             

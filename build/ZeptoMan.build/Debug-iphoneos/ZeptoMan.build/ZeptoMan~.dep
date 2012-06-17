@@ -3,11 +3,12 @@ ffffffffffffffffffffffffffffffff 8ab741d57693e303754284c69755461d ffffffffffffff
 00000000000000000000000000000000 a0c51d2e5ab5df2cb1071206e28635bc ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/embedded.mobileprovision
 000000004fdc409b000000000000075f fc2fbdd1307815474b812f416aab4a67 ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/en.lproj/MainStoryboard_iPhone.storyboardc
 000000004fdc409b0000000000000766 310959a744f8c837afd9c13b07816732 ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/en.lproj/MainStoryboard_iPad.storyboardc
+00000000000000000000000000000000 6f02c1213578e1c4af5d44f77ec7f1bf ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/coin.png
 00000000000000000000000000000000 e75fc40e1e6a14a0930b2be65af8017c ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/wall.png
 00000000000000000000000000000000 b17cf7dcd3b53d5824685a7f6549af67 ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/ZMan2.png
 00000000000000000000000000000000 6a8da025f7030f02e17774ed9f130602 ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/ZMan1.png
-000000004fdc409b000000000000002d 8ce2000ad214f3c90bbbd432112d0dd2 ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/en.lproj/InfoPlist.strings
 00000000000000000000000000000000 a30c59eaa2c054ece7e8f5a882de65b9 ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/Shader.vsh
+000000004fdc409b000000000000002d 8ce2000ad214f3c90bbbd432112d0dd2 ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/en.lproj/InfoPlist.strings
 00000000000000000000000000000000 1ce6bc7d5854230933a99afcfb503040 ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/Shader.fsh
 ffffffffffffffffffffffffffffffff 1fb292efb80b3afcfa1eb2054e0ef54a ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app.dSYM
 ffffffffffffffffffffffffffffffff 9e4438b126e5ee5addf4c07e6dc8277f ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/ZeptoMan
@@ -20,5 +21,5 @@ ffffffffffffffffffffffffffffffff 0614e71954b1342cbddc0f560cce852c ffffffffffffff
 ffffffffffffffffffffffffffffffff 829a3a4a6c522c6fd0fdd3813452e0fc ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/ZeptoMan.build/Debug-iphoneos/ZeptoMan.build/Objects-normal/armv7/main.o
 00000000000000000000000000000000 b52da634108a34684cc6bc7714d6449e ffffffffffffffffffffffffffffffff 0 /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZeptoMan-Prefix-aqxfpzdnitvwysfzkwjxnixinobc/ZeptoMan-Prefix.pch.pth
 00000000000000000000000000000000 46f8f6701638f482a67bd6846b1c2d55 ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/Info.plist
-00000000000000000000000000000000 46f8f6701638f482a67bd6846b1c2d55 ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/PkgInfo
 00000000000000000000000000000000 3bb60234b3948c178a39e6cfea4fd2d7 ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/ResourceRules.plist
+00000000000000000000000000000000 46f8f6701638f482a67bd6846b1c2d55 ffffffffffffffffffffffffffffffff 0 /Users/Seify/Desktop/My Projects/ZeptoMan/ZeptoMan/build/Debug-iphoneos/ZeptoMan.app/PkgInfo

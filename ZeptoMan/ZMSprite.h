@@ -24,12 +24,16 @@ enum turnDirection{
 @property float width;
 @property float height;
 @property GLKVector2 position;
+@property GLKVector2 previousPosition;
 @property float rotation;
 @property GLKVector2 velocity;
 @property (strong) ZMSpriteAnimation *spriteAnimation;
 @property turnDirection nextTurn;
+@property (strong) GLKTextureInfo *texture;    
 
-- (void)setTextureImage:(UIImage *)image;
+
+//- (void)setTextureImage:(UIImage *)image;
+- (void)setDefaultTextureCoordinates;
 - (void)renderWithEffect:(GLKBaseEffect *)effect;
 - (void)update:(NSTimeInterval)dt;
 - (void)restorePosition;

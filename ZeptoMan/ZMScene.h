@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 #import <GLKit/GLKit.h>
 
+typedef int sceneState;
+
+enum sceneState{
+    SCENE_STATE_PLAYING,
+    SCENE_STATE_PAUSED
+};
+
 @interface ZMScene : NSObject
 {
     
