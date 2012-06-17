@@ -22,7 +22,6 @@
 @implementation ZMViewController
 
 @synthesize context = _context;
-//@synthesize effect = _effect;
 
 - (void)viewDidLoad
 {
@@ -33,14 +32,33 @@
     if (!self.context) {
         NSLog(@"Failed to create ES context");
     }
-    
+        
     GLKView *view = (GLKView *)self.view;
     view.context = self.context;
     view.drawableDepthFormat = GLKViewDrawableDepthFormat24;
+
+    [EAGLContext setCurrentContext:self.context];
+    
+    scene = [[ZMScene alloc] init];
     
     [self setupGL];
     
-    scene = [[ZMScene alloc] init];
+    UISwipeGestureRecognizer *swipeL = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeLeft:)];
+    swipeL.direction = UISwipeGestureRecognizerDirectionLeft;
+    [self.view addGestureRecognizer:swipeL];
+    
+    UISwipeGestureRecognizer *swipeR = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeRight:)];
+    swipeR.direction = UISwipeGestureRecognizerDirectionRight;
+    [self.view addGestureRecognizer:swipeR];
+    
+    UISwipeGestureRecognizer *swipeU = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeUp:)];
+    swipeU.direction = UISwipeGestureRecognizerDirectionUp;
+    [self.view addGestureRecognizer:swipeU];
+    
+    UISwipeGestureRecognizer *swipeD = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeDown:)];
+    swipeD.direction = UISwipeGestureRecognizerDirectionDown;
+    [self.view addGestureRecognizer:swipeD];
+    
 }
 
 - (void)viewDidUnload
@@ -64,41 +82,13 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return UIInterfaceOrientationIsLandscape(interfaceOrientation);
-    
-//    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-//        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-//    } else {
-//        return YES;
-//    }
 }
 
 - (void)setupGL
 {
-    [EAGLContext setCurrentContext:self.context];
     
     [scene setupGL];
     
-//    [self loadShaders];
-//    
-//    self.effect = [[GLKBaseEffect alloc] init];
-//    self.effect.light0.enabled = GL_TRUE;
-//    self.effect.light0.diffuseColor = GLKVector4Make(1.0f, 0.4f, 0.4f, 1.0f);
-//    
-//    glEnable(GL_DEPTH_TEST);
-//    
-//    glGenVertexArraysOES(1, &_vertexArray);
-//    glBindVertexArrayOES(_vertexArray);
-//    
-//    glGenBuffers(1, &_vertexBuffer);
-//    glBindBuffer(GL_ARRAY_BUFFER, _vertexBuffer);
-//    glBufferData(GL_ARRAY_BUFFER, sizeof(gCubeVertexData), gCubeVertexData, GL_STATIC_DRAW);
-//    
-//    glEnableVertexAttribArray(GLKVertexAttribPosition);
-//    glVertexAttribPointer(GLKVertexAttribPosition, 3, GL_FLOAT, GL_FALSE, 24, BUFFER_OFFSET(0));
-//    glEnableVertexAttribArray(GLKVertexAttribNormal);
-//    glVertexAttribPointer(GLKVertexAttribNormal, 3, GL_FLOAT, GL_FALSE, 24, BUFFER_OFFSET(12));
-//    
-//    glBindVertexArrayOES(0);
 }
 
 - (void)tearDownGL
@@ -106,16 +96,31 @@
     [EAGLContext setCurrentContext:self.context];
     
     [scene tearDownGL];
-    
-//    glDeleteBuffers(1, &_vertexBuffer);
-//    glDeleteVertexArraysOES(1, &_vertexArray);
-//    
-//    self.effect = nil;
-//    
-//    if (_program) {
-//        glDeleteProgram(_program);
-//        _program = 0;
-//    }
+}
+
+#pragma mark - Gestures handlers
+- (void)swipeLeft:(UISwipeGestureRecognizer *)gesture
+{
+//    NSLog(@"%@ : %@ swipe = %@", self, NSStringFromSelector(_cmd), gesture);
+    [scene swipe:gesture.direction];
+}
+
+- (void)swipeRight:(UISwipeGestureRecognizer *)gesture
+{
+//    NSLog(@"%@ : %@ swipe = %@", self, NSStringFromSelector(_cmd), gesture);
+    [scene swipe:gesture.direction];
+}
+
+- (void)swipeUp:(UISwipeGestureRecognizer *)gesture
+{
+//    NSLog(@"%@ : %@ swipe = %@", self, NSStringFromSelector(_cmd), gesture);
+    [scene swipe:gesture.direction];
+}
+
+- (void)swipeDown:(UISwipeGestureRecognizer *)gesture
+{
+//    NSLog(@"%@ : %@ swipe = %@", self, NSStringFromSelector(_cmd), gesture);
+    [scene swipe:gesture.direction];
 }
 
 #pragma mark - GLKView and GLKViewController delegate methods
@@ -123,7 +128,7 @@
 - (void)update
 {
     
-    [scene update];
+    [scene update:self.timeSinceLastUpdate];
     
 }
 

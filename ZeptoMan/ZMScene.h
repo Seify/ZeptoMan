@@ -10,11 +10,16 @@
 #import <GLKit/GLKit.h>
 
 @interface ZMScene : NSObject
+{
+    
+}
+@property float left, right, bottom, top;
 
 - (void)setupGL;
 - (void)tearDownGL;
 
-- (void)update;
+- (void)swipe:(UISwipeGestureRecognizerDirection)direction;
+- (void)update:(NSTimeInterval)dt;
 - (void)render;
 
 @end

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1858ADA158C8EB00047B61F /* ZMSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = B1858AD9158C8EB00047B61F /* ZMSprite.m */; };
+		B1858ADE158CA2D70047B61F /* ZMan1.png in Resources */ = {isa = PBXBuildFile; fileRef = B1858ADC158CA2D70047B61F /* ZMan1.png */; };
+		B1858ADF158CA2D70047B61F /* ZMan2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1858ADD158CA2D70047B61F /* ZMan2.png */; };
+		B1858AE3158CB7A00047B61F /* ZMSpriteAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B1858AE2158CB7A00047B61F /* ZMSpriteAnimation.m */; };
+		B1858AEE158D130E0047B61F /* ZMLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1858AED158D130D0047B61F /* ZMLevel.m */; };
+		B1858AF0158D1AF10047B61F /* wall.png in Resources */ = {isa = PBXBuildFile; fileRef = B1858AEF158D1AF10047B61F /* wall.png */; };
 		B187FD0C158C781B00ACF6A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B187FD0B158C781B00ACF6A9 /* UIKit.framework */; };
 		B187FD0E158C781B00ACF6A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B187FD0D158C781B00ACF6A9 /* Foundation.framework */; };
 		B187FD10158C781B00ACF6A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B187FD0F158C781B00ACF6A9 /* CoreGraphics.framework */; };
@@ -24,6 +30,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1858AD8158C8EB00047B61F /* ZMSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMSprite.h; sourceTree = "<group>"; };
+		B1858AD9158C8EB00047B61F /* ZMSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMSprite.m; sourceTree = "<group>"; };
+		B1858ADC158CA2D70047B61F /* ZMan1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZMan1.png; path = ZeptoMan/Textures/ZMan1.png; sourceTree = "<group>"; };
+		B1858ADD158CA2D70047B61F /* ZMan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZMan2.png; path = ZeptoMan/Textures/ZMan2.png; sourceTree = "<group>"; };
+		B1858AE1158CB7A00047B61F /* ZMSpriteAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMSpriteAnimation.h; sourceTree = "<group>"; };
+		B1858AE2158CB7A00047B61F /* ZMSpriteAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMSpriteAnimation.m; sourceTree = "<group>"; };
+		B1858AEC158D130D0047B61F /* ZMLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMLevel.h; sourceTree = "<group>"; };
+		B1858AED158D130D0047B61F /* ZMLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMLevel.m; sourceTree = "<group>"; };
+		B1858AEF158D1AF10047B61F /* wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wall.png; path = ZeptoMan/Textures/wall.png; sourceTree = "<group>"; };
 		B187FD07158C781B00ACF6A9 /* ZeptoMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeptoMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B187FD0B158C781B00ACF6A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B187FD0D158C781B00ACF6A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +77,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B1858AE0158CA2E30047B61F /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				B1858AEF158D1AF10047B61F /* wall.png */,
+				B1858ADC158CA2D70047B61F /* ZMan1.png */,
+				B1858ADD158CA2D70047B61F /* ZMan2.png */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
 		B187FCFC158C781B00ACF6A9 = {
 			isa = PBXGroup;
 			children = (
+				B1858AE0158CA2E30047B61F /* Textures */,
 				B187FD15158C781B00ACF6A9 /* ZeptoMan */,
 				B187FD0A158C781B00ACF6A9 /* Frameworks */,
 				B187FD08158C781B00ACF6A9 /* Products */,
@@ -102,8 +128,14 @@
 				B187FD29158C781B00ACF6A9 /* Shader.vsh */,
 				B187FD2B158C781B00ACF6A9 /* ZMViewController.h */,
 				B187FD2C158C781B00ACF6A9 /* ZMViewController.m */,
+				B1858AE1158CB7A00047B61F /* ZMSpriteAnimation.h */,
+				B1858AE2158CB7A00047B61F /* ZMSpriteAnimation.m */,
+				B1858AD8158C8EB00047B61F /* ZMSprite.h */,
+				B1858AD9158C8EB00047B61F /* ZMSprite.m */,
 				B187FD33158C78F400ACF6A9 /* ZMScene.h */,
 				B187FD34158C78F400ACF6A9 /* ZMScene.m */,
+				B1858AEC158D130D0047B61F /* ZMLevel.h */,
+				B1858AED158D130D0047B61F /* ZMLevel.m */,
 				B187FD16158C781B00ACF6A9 /* Supporting Files */,
 			);
 			path = ZeptoMan;
@@ -176,6 +208,9 @@
 				B187FD26158C781B00ACF6A9 /* MainStoryboard_iPad.storyboard in Resources */,
 				B187FD28158C781B00ACF6A9 /* Shader.fsh in Resources */,
 				B187FD2A158C781B00ACF6A9 /* Shader.vsh in Resources */,
+				B1858ADE158CA2D70047B61F /* ZMan1.png in Resources */,
+				B1858ADF158CA2D70047B61F /* ZMan2.png in Resources */,
+				B1858AF0158D1AF10047B61F /* wall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +225,9 @@
 				B187FD20158C781B00ACF6A9 /* ZMAppDelegate.m in Sources */,
 				B187FD2D158C781B00ACF6A9 /* ZMViewController.m in Sources */,
 				B187FD35158C78F400ACF6A9 /* ZMScene.m in Sources */,
+				B1858ADA158C8EB00047B61F /* ZMSprite.m in Sources */,
+				B1858AE3158CB7A00047B61F /* ZMSpriteAnimation.m in Sources */,
+				B1858AEE158D130E0047B61F /* ZMLevel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +351,7 @@
 				B187FD32158C781B00ACF6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
